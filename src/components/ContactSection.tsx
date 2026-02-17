@@ -39,7 +39,7 @@ const ContactSection = () => {
           >
             {[
               { icon: MapPin, label: "Dirección", value: "Av. Principal #123, Centro" },
-              { icon: Phone, label: "Teléfono", value: "+1 (234) 567-890" },
+              { icon: Phone, label: "Teléfono", value: "809-000-0000" },
               { icon: Mail, label: "Email", value: "info@farmavida.com" },
               { icon: Clock, label: "Horario", value: "Lun - Sáb: 8:00 AM - 10:00 PM" },
             ].map((item, i) => (
@@ -76,7 +76,7 @@ const ContactSection = () => {
             </div>
             <div>
               <label className="mb-1.5 block font-body text-sm font-medium text-foreground">Teléfono</label>
-              <input type="tel" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} maxLength={20} className="w-full rounded-lg border border-input bg-card px-4 py-3 font-body text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" placeholder="+1 (234) 567-890" />
+              <input type="tel" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} maxLength={20} className="w-full rounded-lg border border-input bg-card px-4 py-3 font-body text-sm text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" placeholder="809-000-0000" />
             </div>
             <div>
               <label className="mb-1.5 block font-body text-sm font-medium text-foreground">Mensaje *</label>

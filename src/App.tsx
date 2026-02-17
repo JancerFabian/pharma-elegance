@@ -15,7 +15,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <WhatsAppButton />
-      <BrowserRouter>
+      <BrowserRouter basename="/pharma-elegance">
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
